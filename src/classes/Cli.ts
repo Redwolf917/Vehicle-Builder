@@ -1,23 +1,18 @@
-// importing classes from other files
 import inquirer from "inquirer";
 import Truck from "./Truck.js";
 import Car from "./Car.js";
 import Motorbike from "./Motorbike.js";
 import Wheel from "./Wheel.js";
 
-// define the Cli class
 class Cli {
-  // Update the vehicles property to accept Truck and Motorbike objects
   vehicles: (Car | Truck | Motorbike)[];
   selectedVehicleVin: string | undefined;
   exit: boolean = false;
 
-  // Update the constructor to accept Truck and Motorbike objects
   constructor(vehicles: (Car | Truck | Motorbike)[]) {
     this.vehicles = vehicles;
   }
 
-  // static method to generate a vin
   static generateVin(): string {
     return (
       Math.random().toString(36).substring(2, 15) +
@@ -25,7 +20,6 @@ class Cli {
     );
   }
 
-  // method to choose a vehicle from existing vehicles
   chooseVehicle(): void {
     inquirer
       .prompt([
@@ -41,13 +35,12 @@ class Cli {
           }),
         },
       ])
-      .then((answers: any) => {
+      .then((answers) => {
         this.selectedVehicleVin = answers.selectedVehicleVin;
         this.performActions();
       });
   }
 
-  // method to create a vehicle
   createVehicle(): void {
     inquirer
       .prompt([
@@ -58,7 +51,7 @@ class Cli {
           choices: ['Car', 'Truck', 'Motorbike'],
         },
       ])
-      .then((answers: any) => {
+      .then((answers) => {
         if (answers.vehicleType === 'Car') {
           this.createCar();
         } else if (answers.vehicleType === 'Truck') {
@@ -69,7 +62,6 @@ class Cli {
       });
   }
 
-  // method to create a car
   createCar(): void {
     inquirer
       .prompt([
@@ -104,7 +96,7 @@ class Cli {
           message: 'Enter Top Speed',
         },
       ])
-      .then((answers: any) => {
+      .then((answers) => {
         const car = new Car(
           Cli.generateVin(),
           answers.color,
@@ -121,7 +113,6 @@ class Cli {
       });
   }
 
-  // method to create a truck
   createTruck(): void {
     inquirer
       .prompt([
@@ -161,7 +152,7 @@ class Cli {
           message: 'Enter Towing Capacity',
         },
       ])
-      .then((answers: any) => {
+      .then((answers) => {
         const truck = new Truck(
           Cli.generateVin(),
           answers.color,
@@ -179,7 +170,6 @@ class Cli {
       });
   }
 
-  // method to create a motorbike
   createMotorbike(): void {
     inquirer
       .prompt([
@@ -234,7 +224,7 @@ class Cli {
           message: 'Enter Rear Wheel Brand',
         },
       ])
-      .then((answers: any) => {
+      .then((answers) => {
         const motorbike = new Motorbike(
           Cli.generateVin(),
           answers.color,
@@ -254,7 +244,6 @@ class Cli {
       });
   }
 
-  // method to find a vehicle to tow
   findVehicleToTow(truck: Truck): void {
     inquirer
       .prompt([
@@ -270,7 +259,7 @@ class Cli {
           }),
         },
       ])
-      .then((answers: any) => {
+      .then((answers) => {
         if (answers.vehicleToTow === truck.vin) {
           console.log('The truck cannot tow itself.');
           this.performActions();
@@ -284,7 +273,6 @@ class Cli {
       });
   }
 
-  // method to perform actions on a vehicle
   performActions(): void {
     inquirer
       .prompt([
@@ -306,7 +294,7 @@ class Cli {
           ],
         },
       ])
-      .then((answers: any) => {
+      .then((answers) => {
         const selectedVehicle = this.vehicles.find(v => v.vin === this.selectedVehicleVin);
         if (!selectedVehicle) return;
 
@@ -339,7 +327,6 @@ class Cli {
       });
   }
 
-  // method to start the cli
   startCli(): void {
     inquirer
       .prompt([
@@ -361,5 +348,4 @@ class Cli {
   }
 }
 
-// export the Cli class
 export default Cli;

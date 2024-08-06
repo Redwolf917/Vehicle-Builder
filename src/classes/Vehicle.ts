@@ -1,30 +1,21 @@
-// import Driveable interface
 import Driveable from '../interfaces/Driveable.js';
 
-// Vehicle class that implements Driveable interface
-class Vehicle implements Driveable {
+abstract class Vehicle implements Driveable {
   started: boolean;
   currentSpeed: number;
 
-  // Constructor for the Vehicle class
   constructor() {
     this.started = false;
     this.currentSpeed = 0;
   }
 
-  // Method to print vehicle details
-  printDetails(): void {
-    console.log(`Vehicle started: ${this.started}`);
-    console.log(`Vehicle current speed: ${this.currentSpeed} mph`);
-  }
+  abstract printDetails(): void;
 
-  // Method to start the vehicle
   start(): void {
     this.started = true;
     console.log('Vehicle started');
   }
 
-  // Method to accelerate the vehicle
   accelerate(change: number): void {
     if (this.started) {
       this.currentSpeed += change;
@@ -34,7 +25,6 @@ class Vehicle implements Driveable {
     }
   }
 
-  // Method to decelerate the vehicle
   decelerate(change: number): void {
     if (this.started) {
       this.currentSpeed -= change;
@@ -44,14 +34,12 @@ class Vehicle implements Driveable {
     }
   }
 
-  // Method to stop the vehicle
   stop(): void {
     this.currentSpeed = 0;
     this.started = false;
     console.log('Vehicle stopped');
   }
 
-  // Method to turn the vehicle
   turn(direction: string): void {
     if (this.started) {
       console.log(`Vehicle turned ${direction}`);
@@ -60,7 +48,6 @@ class Vehicle implements Driveable {
     }
   }
 
-  // Method to reverse the vehicle
   reverse(): void {
     if (this.started) {
       console.log('Vehicle reversed');
@@ -70,5 +57,4 @@ class Vehicle implements Driveable {
   }
 }
 
-// Export the Vehicle class
 export default Vehicle;

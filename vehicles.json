@@ -107,5 +107,434 @@
         "tireBrand": "GoodYear"
       }
     ]
+  },
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "0zjaawnxoaps8rjl1l7qj",
+    "color": "blue",
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2021,
+    "weight": 3000,
+    "topSpeed": 130,
+    "wheels": [
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      }
+    ]
+  },
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "whw44rxewcsgabkvclwpc",
+    "color": "red",
+    "make": "Ford",
+    "model": "F-150",
+    "year": 2021,
+    "weight": 5000,
+    "topSpeed": 120,
+    "towingCapacity": 10000,
+    "wheels": [
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      }
+    ]
+  },
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "1hkq1blrj9tjlduo4eyrx",
+    "color": "black",
+    "make": "Harley Davidson",
+    "model": "Sportster",
+    "year": 2021,
+    "weight": 500,
+    "topSpeed": 125,
+    "wheels": [
+      {
+        "diameter": 17,
+        "tireBrand": "Michelin"
+      },
+      {
+        "diameter": 17,
+        "tireBrand": "Michelin"
+      }
+    ]
+  },
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "k4jvloj7aemcue6do0yk",
+    "color": "blue",
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2021,
+    "weight": 3000,
+    "topSpeed": 130,
+    "wheels": [
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      }
+    ]
+  },
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "yv3llf63fmffmn1fjhc2m",
+    "color": "red",
+    "make": "Ford",
+    "model": "F-150",
+    "year": 2021,
+    "weight": 5000,
+    "topSpeed": 120,
+    "towingCapacity": 10000,
+    "wheels": [
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      }
+    ]
+  },
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "e1s3b5bp0pevd0b2ht51bj",
+    "color": "black",
+    "make": "Harley Davidson",
+    "model": "Sportster",
+    "year": 2021,
+    "weight": 500,
+    "topSpeed": 125,
+    "wheels": [
+      {
+        "diameter": 17,
+        "tireBrand": "Michelin"
+      },
+      {
+        "diameter": 17,
+        "tireBrand": "Michelin"
+      }
+    ]
+  },
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "irz1fsj6i7sgicozqr31dp",
+    "color": "blue",
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2021,
+    "weight": 3000,
+    "topSpeed": 130,
+    "wheels": [
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      }
+    ]
+  },
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "lw8uvvl43bupn4l8rzbsm",
+    "color": "red",
+    "make": "Ford",
+    "model": "F-150",
+    "year": 2021,
+    "weight": 5000,
+    "topSpeed": 120,
+    "towingCapacity": 10000,
+    "wheels": [
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      }
+    ]
+  },
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "cwo81nj4tul3p6ves9vdg6",
+    "color": "black",
+    "make": "Harley Davidson",
+    "model": "Sportster",
+    "year": 2021,
+    "weight": 500,
+    "topSpeed": 125,
+    "wheels": [
+      {
+        "diameter": 17,
+        "tireBrand": "Michelin"
+      },
+      {
+        "diameter": 17,
+        "tireBrand": "Michelin"
+      }
+    ]
+  },
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "5yb7njg8vlbqb777zqofq",
+    "color": "blue",
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2021,
+    "weight": 3000,
+    "topSpeed": 130,
+    "wheels": [
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      }
+    ]
+  },
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "yt2cpz3tdabc3i97p7hv66",
+    "color": "red",
+    "make": "Ford",
+    "model": "F-150",
+    "year": 2021,
+    "weight": 5000,
+    "topSpeed": 120,
+    "towingCapacity": 10000,
+    "wheels": [
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      }
+    ]
+  },
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "a0egzn4mc49abezku8sr2t",
+    "color": "black",
+    "make": "Harley Davidson",
+    "model": "Sportster",
+    "year": 2021,
+    "weight": 500,
+    "topSpeed": 125,
+    "wheels": [
+      {
+        "diameter": 17,
+        "tireBrand": "Michelin"
+      },
+      {
+        "diameter": 17,
+        "tireBrand": "Michelin"
+      }
+    ]
+  },
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "3h2gof9a06m9orl374hgse",
+    "color": "blue",
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2021,
+    "weight": 3000,
+    "topSpeed": 130,
+    "wheels": [
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      }
+    ]
+  },
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "peiey6iqdinqb0tz9q4xh",
+    "color": "red",
+    "make": "Ford",
+    "model": "F-150",
+    "year": 2021,
+    "weight": 5000,
+    "topSpeed": 120,
+    "towingCapacity": 10000,
+    "wheels": [
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      }
+    ]
+  },
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "7g0zm55d7xigo9xf8tqftt",
+    "color": "black",
+    "make": "Harley Davidson",
+    "model": "Sportster",
+    "year": 2021,
+    "weight": 500,
+    "topSpeed": 125,
+    "wheels": [
+      {
+        "diameter": 17,
+        "tireBrand": "Michelin"
+      },
+      {
+        "diameter": 17,
+        "tireBrand": "Michelin"
+      }
+    ]
+  },
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "whuzcinzwy4ycy1wm4brv",
+    "color": "Blue",
+    "make": "Subaru",
+    "model": "Impreza",
+    "year": 2012,
+    "weight": 2000,
+    "topSpeed": 100,
+    "wheels": [
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      }
+    ]
   }
 ]

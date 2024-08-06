@@ -1,8 +1,6 @@
-// Importing Vehicle and Wheel classes
 import Vehicle from './Vehicle.js';
 import Wheel from './Wheel.js';
 
-// The Motorbike class extends the Vehicle class
 class Motorbike extends Vehicle {
   vin: string;
   color: string;
@@ -24,7 +22,6 @@ class Motorbike extends Vehicle {
     wheels: Wheel[]
   ) {
     super();
-
     this.vin = vin;
     this.color = color;
     this.make = make;
@@ -32,7 +29,6 @@ class Motorbike extends Vehicle {
     this.year = year;
     this.weight = weight;
     this.topSpeed = topSpeed;
-
     if (wheels.length !== 2) {
       this.wheels = [new Wheel(), new Wheel()];
     } else {
@@ -40,14 +36,13 @@ class Motorbike extends Vehicle {
     }
   }
 
-  // Implement the wheelie method
   wheelie(): void {
     console.log(`Motorbike ${this.make} ${this.model} is doing a wheelie!`);
   }
 
   override printDetails(): void {
-    super.printDetails();
-
+    console.log(`Vehicle started: ${this.started}`);
+    console.log(`Vehicle current speed: ${this.currentSpeed} mph`);
     console.log(`VIN: ${this.vin}`);
     console.log(`Color: ${this.color}`);
     console.log(`Make: ${this.make}`);
@@ -55,15 +50,10 @@ class Motorbike extends Vehicle {
     console.log(`Year: ${this.year}`);
     console.log(`Weight: ${this.weight} lbs`);
     console.log(`Top Speed: ${this.topSpeed} mph`);
-
-    console.log(
-      `Front Wheel: ${this.wheels[0].getDiameter} inch with a ${this.wheels[0].getTireBrand} tire`
-    );
-    console.log(
-      `Rear Wheel: ${this.wheels[1].getDiameter} inch with a ${this.wheels[1].getTireBrand} tire`
-    );
+    this.wheels.forEach((wheel, index) => {
+      console.log(`Wheel ${index + 1}: ${wheel.getDiameter} inch with a ${wheel.getTireBrand} tire`);
+    });
   }
 }
 
-// Export the Motorbike class as the default export
 export default Motorbike;
