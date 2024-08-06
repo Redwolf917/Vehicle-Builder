@@ -1,0 +1,111 @@
+[
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "lt03o4cr53bz85n135d6a",
+    "color": "blue",
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2021,
+    "weight": 3000,
+    "topSpeed": 130,
+    "wheels": [
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      }
+    ]
+  },
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "g6wc1x8hy75irpbpdokp5",
+    "color": "red",
+    "make": "Ford",
+    "model": "F-150",
+    "year": 2021,
+    "weight": 5000,
+    "topSpeed": 120,
+    "towingCapacity": 10000,
+    "wheels": [
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      }
+    ]
+  },
+  {
+    "started": false,
+    "currentSpeed": 0,
+    "vin": "y4sa5ket4cnlccvaz99rkf",
+    "color": "black",
+    "make": "Harley Davidson",
+    "model": "Sportster",
+    "year": 2021,
+    "weight": 500,
+    "topSpeed": 125,
+    "wheels": [
+      {
+        "diameter": 17,
+        "tireBrand": "Michelin"
+      },
+      {
+        "diameter": 17,
+        "tireBrand": "Michelin"
+      }
+    ]
+  },
+  {
+    "started": true,
+    "currentSpeed": 0,
+    "vin": "qi56gvi4apr36zgivqdst",
+    "color": "blue",
+    "make": "Subaru",
+    "model": "Impreza",
+    "year": 2012,
+    "weight": 40000000,
+    "topSpeed": 10,
+    "wheels": [
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      },
+      {
+        "diameter": 18,
+        "tireBrand": "GoodYear"
+      }
+    ]
+  }
+]

@@ -3,7 +3,6 @@ import Driveable from '../interfaces/Driveable.js';
 
 // Vehicle class that implements Driveable interface
 class Vehicle implements Driveable {
-  // Declare properties of the Vehicle class
   started: boolean;
   currentSpeed: number;
 
@@ -27,7 +26,6 @@ class Vehicle implements Driveable {
 
   // Method to accelerate the vehicle
   accelerate(change: number): void {
-    // Check if the vehicle is started
     if (this.started) {
       this.currentSpeed += change;
       console.log(`Vehicle accelerated to ${this.currentSpeed} mph`);
@@ -38,7 +36,6 @@ class Vehicle implements Driveable {
 
   // Method to decelerate the vehicle
   decelerate(change: number): void {
-    // Check if the vehicle is started
     if (this.started) {
       this.currentSpeed -= change;
       console.log(`Vehicle decelerated to ${this.currentSpeed} mph`);
@@ -56,7 +53,6 @@ class Vehicle implements Driveable {
 
   // Method to turn the vehicle
   turn(direction: string): void {
-    // Check if the vehicle is started
     if (this.started) {
       console.log(`Vehicle turned ${direction}`);
     } else {
@@ -66,7 +62,6 @@ class Vehicle implements Driveable {
 
   // Method to reverse the vehicle
   reverse(): void {
-    // Check if the vehicle is started
     if (this.started) {
       console.log('Vehicle reversed');
     } else {
